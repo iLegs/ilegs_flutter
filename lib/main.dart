@@ -8,10 +8,10 @@ void main() {
     DeviceOrientation.portraitDown
   ]);
 
-  runApp(new iLegsApp());
+  runApp(new ILegsApp());
 }
 
-class iLegsApp extends StatelessWidget {
+class ILegsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
